@@ -1,0 +1,128 @@
+body { 
+  background-color: rgb(34,26,48);
+}
+
+.bbt {
+  background-color: #5041a5; 
+  border-radius: 10px;
+  padding-right: 5px;
+
+}
+
+header { 
+  background-color: #5041a5;
+  border-radius: 10px;
+}
+
+img {
+  float: left;
+  max-width: 40%;
+  margin: 5px; 
+  margin-right: 15px;
+  bottom: -5px;
+  right: -5px;
+  }
+
+  @media (min-width: 480px) and (max-width: 1024px) {
+    p {
+      font-size: calc(14px + (18 - 14) * ( (100vw - 480px) / ( 1024 - 480) ));
+    }
+  }
+
+p{
+  font-family: Arial; 
+  color: #ffffff; 
+  text-shadow: 2px 2px 2px #000000;
+  padding-left: 10px;
+}
+
+@media (min-width: 480px) and (max-width: 1024px) {
+  h2 {
+    font-size: calc(14px + (18 - 14) * ( (100vw - 480px) / ( 1024 - 480) ));
+  }
+}
+
+h2{
+  font-family: Arial Black; 
+  color: #ffffff;
+  text-shadow: 2px 2px 2px #000000;
+  padding-left: 10px;
+}
+
+.blogsp{
+  filter: drop-shadow(0 0 5px rgba(0,0,0,0.5));
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+
+.second{
+  text-align: center;
+  text-shadow: 2px 2px 2px #000000;
+}
+
+h1{
+  font-family: Arial black; 
+  color: #ffffff; 
+  text-align: center;
+  text-shadow: 2px 2px 2px #000000;
+}
+
+.photo1{
+  border: 5px solid #7c70c1;
+  filter: drop-shadow(0 0 5px rgba(0,0,0,0.5));
+  border-radius: 10px;
+  transition: transform 0.2s;
+  margin-right: 1px;
+}
+
+.photo1:hover{
+  transform: scale(1.1);
+}
+
+.photo2{
+  border: 5px solid #7c70c1;
+  filter: drop-shadow(0 0 5px rgba(0,0,0,0.5));
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+
+.photo2:hover{
+  transform: scale(1.1);
+}
+
+.blogsp{
+  transition: transform 0.2s;
+  margin: 10px;
+}
+
+.blogsp:hover{
+  transform: scale(1.05);
+}
+
+.blog{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.end{
+  text-align: center;
+  filter: drop-shadow(0 0 5px rgba(0,0,0,0.5));
+}
+
+.logo{
+  filter: drop-shadow(0 0 5px rgba(0,0,0,0.5));
+  transition: transform 0.2s;
+  max-width: 100%;
+}
+
+.logo:hover{
+  transform: scale(1.1);
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
